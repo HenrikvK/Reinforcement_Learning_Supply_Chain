@@ -7,11 +7,13 @@ Kemmer, L., von Kleist, H., de Rochebouët, D., Tziortziotis, N., & Read, J. (20
 
 
 ### How to run: <br>
+In test_notebook (or separately) call:
 * Run testing.py to do multiple runs with the different environments already created or to create new ones. The results are stored in results/
 * Run graph_creation.py to create the graphs used in the paper to compare different environments and agents
 
 
 ### Code functionality: <br>
+#### Running scripts
 1. testing.py
 * define here which environment to use by selecting:
     - number of stores
@@ -29,6 +31,7 @@ Kemmer, L., von Kleist, H., de Rochebouët, D., Tziortziotis, N., & Read, J. (20
 * define here which agent to use
 * stores computation results in results/ folder
 2. graph_creation.py
+* plot output for the stored results
 
 #### Environment:
 supply_distribution.py
@@ -45,6 +48,8 @@ supply_distribution.py
     - gamma (discounting factor)
     - maximum demand
     - episode length
+evaluate_agent.py
+* evaluates the performance of an agent in the environment
 
 #### Agents:
 1. s_q_agent.py 
