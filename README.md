@@ -15,19 +15,7 @@ In test_notebook (or separately) call:
 ### Code functionality: <br>
 #### Running scripts
 1. testing.py
-* define here which environment to use by selecting:
-    - number of stores
-    - capacity of trucks
-    - production cost
-    - maximum production at factory
-    - storage cost
-    - truck cost
-    - capacity to store
-    - penalty cost 
-    - price of product
-    - gamma (discounting factor)
-    - maximum demand
-    - episode length
+* define here which environment to use
 * define here which agent to use
 * stores computation results in results/ folder
 2. graph_creation.py
