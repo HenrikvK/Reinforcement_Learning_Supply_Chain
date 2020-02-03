@@ -56,9 +56,6 @@ supply_distribution.py
     * implements REINFORCE agent
     * choose alpha carefully
     * choose phi (the Kernel) carefully (quadratic and RBF kernels might work better than linear kernels) <br>
-        options (for `type_of_phi`):
-        0 = linear
-        1 = quadratic
-        2 = RBF
+        options (for `type_of_phi`): 0 = linear, 1 = quadratic, 2 = RBF
    
 
